@@ -1,0 +1,259 @@
+	@font-face{
+	font-family: 'Museo';
+	src:url(../fonts/Museo 300.otf) format('truetype');
+}
+body{
+	font-family: Helvetica,Arial,Sans-serif;
+	font-size: 14px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Museo',Rockwell,Serif;
+}
+.heading{
+	margin-bottom: 20px;
+}
+a{
+	color:#e96155;
+}
+a:hover, a:focus{
+	color: #eb2f39;
+	text-decoration:none;
+}
+.btn{
+	color: white;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
+	background: #a8a8a8;
+	text-shadow: none;
+	box-shadow: none;
+	margin-top: 20px;
+}
+.btn:hover .btn:focus{
+	background: #8e9093;
+	color: #fff;
+	text-shadow: none;
+	box-shadow: none;
+	color: white;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
+	border:none;
+
+}
+.jumbotron{
+	padding:0;
+	margin-bottom: 0;
+	background: url(../images/bg.jpg) no-repeat 50% top;
+	 background-size: 110% 110%;
+    -moz-background-size: 110% 110%;
+    -webkit-background-size: 110% 110%;
+    -o-background-size: 110% 110%;
+    
+}
+.container-fluid{
+	padding-top: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+.navbar-default{
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.navbar-brand{
+
+	background: url(../images/logo.png) no-repeat;
+	height: 109px;
+	width:204px;
+	padding-top: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: bold;
+	font-size: 14px;
+	text-shadow: none;
+	color: white;
+	padding: 8px 10px;
+	}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+box-shadow: none;
+background: rgba(0,0,0,0.7);
+color: white;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius: 3px;
+	}
+
+/*End nav bar*/
+
+/*Jumbotron text*/
+
+
+.jumbotron h1, .jumbotron .h1{
+	font-size: 48px;
+	color:#e96155;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+.jumbotron h4, .jumbotron.h4{
+	color:#e96155;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+.jumbotron .btn-danger{
+	background: #e96155;
+	border:none;
+	margin-top: 0px;
+}
+.btn-danger:hover .btn-danger:focus{
+    background: #eb2f39;
+
+}
+.browserimg{
+	margin-top: 15px;
+	display:inline-block;
+	margin-bottom: 0;
+	/*margin-left: 85px;*/
+}
+
+/*End jumboitron bar*/
+
+/*process*/
+#process{
+	background: #eeeeee;
+	border-bottom: #dddddd;
+	border-top:1px solid #fff;
+	box-shadow: 0 -3px 3px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 10;
+	padding:60px 0; 
+}
+.process-icon{
+	margin-bottom: 15px;
+	width: 104px;
+	height: 104px;
+	display:inline-block;
+	background: transparent url(../images/icons.png) no-repeat;
+	background-position: left top;
+}
+.process-icon.iwork{
+	background-position: -104px top;
+}
+.process-icon.ivision{
+	background-position: -208px top;
+}
+.process-icon.idesign{
+	background-position: -312px top;
+}
+/*end process*/
+/*portfolio*/
+
+#portfolio{
+	padding: 60px 0;
+}
+.title{
+	margin-bottom: 0;
+}
+.category{
+	font-size: 12px;
+	color: #999999;
+}
+/*end portfolio*/
+/*partners*/
+#partners{
+	padding: 60px 0;
+	border-bottom:1px solid #dddddd;
+
+}
+/*end partners*/
+/*widgets*/
+.widgets{
+	padding: 60px 0px;
+	border-bottom:1px solid #dddddd;
+}
+.testimonials blockquote{
+	overflow: hidden;
+	border:none;
+	/*background-image: url(images/openquote4.gif);*/
+    /*background-position: middle left;*/
+    /*background-repeat: no-repeat;*/
+   
+}
+.testimonials blockquote p{
+font-family: Georgia,Serif;
+font-size:14px;
+font-style: italic;
+color: #707070;
+margin-bottom: 20px;
+
+}
+.testimonials blockquote cite{
+	color:#333;
+}
+.blog-list{
+	list-style: none;
+	padding: 0;
+	margin:0;
+
+}
+.blog-list li{
+	border-bottom: 1px solid #dddddd;
+	padding:18px 0;
+}
+.blog-list h5{
+	margin-bottom: 5px;
+}
+.tweet-list{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.tweet-list li{
+	border-bottom: 1px solid #dddddd;
+	padding:18px 0;
+}
+.tweet-list p{
+
+	font-size:13px;
+}
+.tweet-list li img{
+	margin-right: 20px;
+}
+.table{
+	display: table;
+	margin:0 auto;
+}
+.twitter{
+	background:#1DA1F2;
+	box-shadow: none;
+	border: none;
+}
+.facebook{
+	background: #2272a9;
+	box-shadow: none;
+	border: none;
+}
+.twitter:hover. .twitter.focus{
+	background: #20699c;
+	box-shadow: none;
+	border: none;
+
+}
+.facebook:hover. .facebook.focus{
+	background: #20699c;
+	box-shadow: none;
+	border: none;
+}
+.social{
+	margin-bottom: 20px;
+}
+.copyright{
+	margin-bottom:20px;
+}
+/*end widgets*/
